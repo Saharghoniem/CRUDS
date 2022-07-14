@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class ="crud">
+    
+<div class="head">
+
+<h2>cruds</h2>
+<p> our product</p>
+</div>
+
+
+<div class="inputs">
+    <input placeholder="title" type="text" id="title">
+<div class="price">
+<input onclick="getTotal()" type="number" id= "price" placeholder = "price">
+<input onclick="getTotal()" type="number" id= "taxes" placeholder= "taxes">
+<input onclick="getTotal()" type="number" id= "ads" placeholder= "ads">
+<input onclick="getTotal()" type="number" id= "discount" placeholder= "discount">
+<small id="total"></small>
+</div>
+<input placeholder="count" type="number" id="count">
+<input placeholder="category" type="" id="category">
+<div id = "create">
+<butten > create</butten>
+</div>
+</div>
+
+
+<div class="outputs">
+<div class="searchblock">
+
+ <input type="text" id="seach" placeholder="search">
+<div class="btnsearch"> 
+    <button id="searchTitle">Search By Title</button>
+<button id="searchCategory">Search By category</button>
+</div>
+</div>
+<table>
+<tr>
+
+    <th>id</th>
+    <th>title</th>
+    <th>price</th>
+    <th>taxes</th>
+    <th>ads</th>
+    <th>discount</th>
+    <th>discount</th>
+    <th>total</th>
+    <th>update</th>
+    <th>delete</th>
+    <tbody>
+        <tr>
+        <td>232</td>
+        <td>ssss</td>
+        <td>87234</td>
+        <td>iio</td>
+        <td>o99i</td>
+        <td>87</td>
+        <td>988</td>
+        <td>988</td>
+        <td><button id="update">update</button></td>
+        <td><button id="delete">delete</button></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+        <td>232</td>
+        <td>ssss</td>
+        <td>87234</td>
+        <td>iio</td>
+        <td>o99i</td>
+        <td>87</td>
+        <td>988</td>
+        <td>988</td>
+        <td><button id="update">update</button></td>
+        <td><button id="delete">delete</button></td>
+        </tr>
+    </tbody> 
+</tr>
+<tbody>
+    <tr>
+    <td>232</td>
+    <td>ssss</td>
+    <td>87234</td>
+    <td>iio</td>
+    <td>o99i</td>
+    <td>87</td>
+    <td>988</td>
+    <td>988</td>
+    <td><button id="update">update</button></td>
+    <td><button id="delete">delete</button></td>
+    </tr>
+</tbody>
+
+</table>
+</div>
+</div>
+<script src = "main.js"></script>
+  
+
+</body>
+</html>
